@@ -1,6 +1,6 @@
 local ui = {}
 
-function CreateWindow(params)
+function ui:CreateWindow(params)
     print('making window')
     local window = Instance.new('Frame')
     return window
