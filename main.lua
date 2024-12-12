@@ -15,7 +15,6 @@ function ui:CreateWindow(params)
     mainCorner.CornerRadius = UDim.new(0,4)
     mainCorner.Parent = main
     
-
     window.Parent = game.CoreGui
     return window
 end
