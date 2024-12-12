@@ -9,9 +9,11 @@ function ui:CreateWindow(params)
     main.Size = UDim2.new(0, 525, 0, 318)
     main.Position = UDim2.new(0.328, 0,0.288, 0)
     main.BackgroundColor3 = Color3.new(params.color)
-
     main.Parent = window
-
+    local mainCorner = Instance.new('UICorner')
+    mainCorner.Name = "MainCorner"
+    mainCorner.CornorRadius = UDim2.new(0,4)
+    mainCorner.Parent = main
     
 
     window.Parent = game.CoreGui
@@ -19,5 +21,3 @@ function ui:CreateWindow(params)
 end
 
 return ui
-
--- {0, 525}, {0, 318}
