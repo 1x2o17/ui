@@ -12,7 +12,7 @@ function ui:CreateWindow(params)
     main.Parent = window
     local mainCorner = Instance.new('UICorner')
     mainCorner.Name = "MainCorner"
-    mainCorner.CornorRadius = UDim2.new(0,4)
+    mainCorner.CornerRadius = UDim2.new(0,4)
     mainCorner.Parent = main
     
 
